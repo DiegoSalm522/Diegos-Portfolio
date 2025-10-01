@@ -49,7 +49,8 @@ export const projects = [
       "Developed online multiplayer functionality with Photon Engine, enabling cooperative gameplay.",
       "Collaborated in a team of 5 to create the game from scratch as part of the Tec de Monterrey Video Games Concentration.",
     ],
-    repository: "https://diegosalm522.itch.io/grief-the-journey-of-loss",
+    demo: "https://diegosalm522.itch.io/grief-the-journey-of-loss",
+    repository: "",
     image: "/assets/projects/grief.png",
     tags: [
       {
