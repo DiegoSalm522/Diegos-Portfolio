@@ -67,7 +67,7 @@ const About = () => {
             />
             <Card 
               style={{rotate:"-30deg", top:"80%", left:"0%"}} 
-              text="Networks"
+              text="UI/UX"
               containerRef={grid2Container}
             />
             <Card 
