@@ -9,13 +9,16 @@ const Contact = () => {
     email:"", 
     message:""
   });
+
   const [isLoading, setIsLoading] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [alertType, setAlertType] = useState("success");
   const [alertMessage, setAlertMessage] = useState("");
+
   const handleChange = (e) => {
     setformData({...formData, [e.target.name]: e.target.value})
   }
+
   const showAlertMessage = (type, message) => {
     setAlertType(type);
     setAlertMessage(message);
@@ -24,6 +27,7 @@ const Contact = () => {
     setShowAlert(false);
     }, 5000);
   };
+
   const handleSubmit = async (e) =>{
     e.preventDefault();
     setIsLoading(true);
@@ -47,6 +51,7 @@ const Contact = () => {
       showAlertMessage("danger", "Something went wrong");
     }
   };
+  
   return (
     <section id="contact" className="relative flex items-center c-space section-spacing py-8 h-screen">
       <Particles
