@@ -1,4 +1,5 @@
 import { motion } from "motion/react"
+
 const Card = ({style, text, containerRef}) => {
   return (
     <motion.div 
