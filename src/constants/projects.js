@@ -11,7 +11,7 @@ export const projects = [
     ],
     demo: "https://diegosalmones-portfolio.vercel.app/",
     repository: "https://github.com/DiegoSalm522/Diegos-Portfolio",
-    image: "/assets/projects/onlineportfolio.png",
+    image: "/assets/projects/onlineportfolio.jpg",
     tags: [
       {
         id: 1,
@@ -61,7 +61,7 @@ export const projects = [
     ],
     demo: "https://diegosalm522.itch.io/grief-the-journey-of-loss",
     repository: "",
-    image: "/assets/projects/grief.png",
+    image: "/assets/projects/grief.jpg",
     tags: [
       {
         id: 1,
@@ -96,7 +96,7 @@ export const projects = [
       "Used PHP to connect the frontend with the MySQL database, managing data such as student registrations, project details, and evaluations.",
     ],
     repository: "https://github.com/RogerHdzC/TC2005B",
-    image: "/assets/projects/expoingenierias.png",
+    image: "/assets/projects/expoingenierias.jpg",
     tags: [
       {
         id: 1,
@@ -140,7 +140,7 @@ export const projects = [
       "Worked on responsiveness and UI adaptability to support multiple device types and screen sizes.",
     ],
     repository: "https://github.com/DiegoSalm522/Reecicla-App",
-    image: "/assets/projects/reeciclaapp.png",
+    image: "/assets/projects/reeciclaapp.jpg",
     tags: [
       {
         id: 1,
@@ -185,7 +185,7 @@ export const projects = [
       "Developed with OpenGL, C++, and freeglut for graphics rendering and input handling.",
     ],
     repository: "https://github.com/DiegoSalm522/Pacman",
-    image: "/assets/projects/pacman.png",
+    image: "/assets/projects/pacman.jpg",
     tags: [
       {
         id: 1,
@@ -215,7 +215,7 @@ export const projects = [
       "Integrated the frontend with backend services built with Django and MySQL for data management.",
     ],
     repository: "https://github.com/ErwinPo/BazarAdmin",
-    image: "/assets/projects/bazar.png",
+    image: "/assets/projects/bazar.jpg",
     tags: [
       {
         id: 1,
@@ -260,7 +260,7 @@ export const projects = [
       "Integrated data visualization to display comparisons and predefined rankings.",
     ],
     repository: "https://github.com/DiegoSalm522/FIFA-22-Player-Database-App",
-    image: "/assets/projects/fifa22database.png",
+    image: "/assets/projects/fifa22database.jpg",
     tags: [
       {
         id: 1,
@@ -279,7 +279,7 @@ export const projects = [
       "Implemented detailed error reporting to assist debugging during compilation.",
     ],
     repository: "https://github.com/DiegoSalm522/Proyecto-Patito",
-    image: "/assets/projects/littleduck.png",
+    image: "/assets/projects/littleduck.jpg",
     tags: [
       {
         id: 1,
