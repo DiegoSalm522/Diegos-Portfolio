@@ -113,7 +113,7 @@ const About = () => {
             className="w-30 h-30 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain my-2 mt"
             />
             <p className="text-center text-black text-sm sm:text-base">
-              B.S. in Computer Science @ ITESM (2021-2025)
+              B.S. in Computer Science and Technology @ ITESM (2021-2025)
             </p>
           </div>
         </div>
