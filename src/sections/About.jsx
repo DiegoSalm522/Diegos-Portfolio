@@ -11,7 +11,7 @@ const About = () => {
         {/* Grid 1 */}
         <div className="flex items-end grid1-color grid-1">
           <img
-            src="assets/coding-pov.png"
+            src="assets/about/coding-pov.png"
             className="absolute scale-[1] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 md:scale-[1] lg:scale-[1]"
           />
           {/* Overlay*/}
@@ -109,7 +109,7 @@ const About = () => {
               Education
             </p>
             <img
-            src="assets/tec-logo.svg"
+            src="assets/about/tec-logo.svg"
             className="w-30 h-30 md:w-24 md:h-24 lg:w-32 lg:h-32 object-contain my-2 mt"
             />
             <p className="text-center text-black text-sm sm:text-base">

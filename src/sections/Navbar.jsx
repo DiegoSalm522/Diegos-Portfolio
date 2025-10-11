@@ -86,13 +86,9 @@ const Navbar = () => {
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
             {isOpen ? (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              <img src="/assets/icons/close.svg" alt="Close menu" className="w-6 h-6" />
             ) : (
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+              <img src="/assets/icons/menu.svg" alt="Open menu" className="w-6 h-6" />
             )}
           </button>
           <nav className="hidden sm:flex">
@@ -113,19 +109,6 @@ const Navbar = () => {
           </nav>
         </div>
       )}
-      <style jsx>{`
-        @keyframes slideInFromLeft {
-          from {
-            opacity: 0;
-            transform: translateX(-10px);
-          }
-          to {
-            opacity: 1;
-            transform: translateX(0);
-          }
-        }
-      `}
-      </style>
     </div>
   );
 };
