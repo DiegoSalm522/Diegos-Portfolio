@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="relative h-screen overflow-y-hidden">
           <div className="absolute inset-0 w-full h-screen -z-10"
             style={{
-              backgroundImage: "url(/assets/hero/paint2.png)",
+              backgroundImage: "url(/assets/hero/paint1.png)",
               backgroundPosition: "bottom",
               backgroundSize: "cover",
             }}
