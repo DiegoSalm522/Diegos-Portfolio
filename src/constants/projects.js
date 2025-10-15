@@ -10,7 +10,7 @@ export const projects = [
       "Ensured cross-browser compatibility and responsive design to provide a consistent experience on all devices and platforms.",
     ],
     demo: "https://diegosalmones-portfolio.vercel.app/",
-    repository: "https://github.com/DiegoSalm522/Diegos-Portfolio",
+    repository: "https://github.com/DiegoSalm522/DiegosPortfolio",
     image: "/assets/projects/onlineportfolio.jpg",
     tags: [
       {
