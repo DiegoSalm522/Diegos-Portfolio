@@ -10,7 +10,7 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col md:flex-row md:items-center gap-4 rounded-2xl bg-[#1E1F22]"
+            className="flex flex-col md:flex-row md:items-center gap-4 rounded-2xl bg-[#0B0B0D]"
           >
             <img
               src={project.image}
