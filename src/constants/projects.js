@@ -19,23 +19,13 @@ export const projects = [
       },
       {
         id: 3,
-        name: "HTML",
+        name: "HTML5",
         path: "/assets/logos/html.png",
       },
       {
         id: 4,
         name: "Tailwind CSS",
         path: "/assets/logos/tailwind.png",
-      },
-      {
-        id: 5,
-        name: "Magic UI",
-        path: "/assets/logos/magicui.png",
-      },
-      {
-        id: 6,
-        name: "Motion",
-        path: "/assets/logos/motion.png",
       },
     ],
   },
@@ -59,23 +49,13 @@ export const projects = [
       },
       {
         id: 3,
-        name: "HTML",
+        name: "HTML5",
         path: "/assets/logos/html.png",
       },
       {
         id: 4,
         name: "Tailwind CSS",
         path: "/assets/logos/tailwind.png",
-      },
-      {
-        id: 5,
-        name: "Magic UI",
-        path: "/assets/logos/magicui.png",
-      },
-      {
-        id: 6,
-        name: "Motion",
-        path: "/assets/logos/motion.png",
       },
     ],
   },
@@ -98,12 +78,12 @@ export const projects = [
       },
       {
         id: 3,
-        name: "HTML",
+        name: "HTML5",
         path: "/assets/logos/html.png",
       },
       {
         id: 4,
-        name: "CSS",
+        name: "CSS3",
         path: "/assets/logos/css.png",
       },
       {
@@ -127,23 +107,23 @@ export const projects = [
     tags: [
       {
         id: 1,
-        name: "HTML",
+        name: "HTML5",
         path: "/assets/logos/html.png",
       },
       {
         id: 2,
-        name: "CSS",
+        name: "CSS3",
         path: "/assets/logos/css.png",
       },
       {
         id: 3,
-        name: "Bootstrap",
-        path: "/assets/logos/bootstrap.png",
+        name: "JavaScript",
+        path: "/assets/logos/javascript.png",
       },
       {
         id: 4,
-        name: "JavaScript",
-        path: "/assets/logos/javascript.png",
+        name: "Bootstrap",
+        path: "/assets/logos/bootstrap.png",
       },
       {
         id: 5,
