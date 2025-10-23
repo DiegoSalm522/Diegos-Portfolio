@@ -32,7 +32,7 @@ export const projects = [
   {
     id: 2,
     title: "Phone Planet",
-    description: "E-commerce web application for a cellphone store featuring 8 brands, 180+ products, and 800+ variants",
+    description: "E-commerce web application for a cellphone store featuring 8 brands, 180+ products, and 800+ variants.",
     demo: "https://phone-planet.vercel.app/",
     repository: "https://github.com/DiegoSalm522/PhonePlanet",
     image: "/assets/projects/phoneplanet.jpg",
