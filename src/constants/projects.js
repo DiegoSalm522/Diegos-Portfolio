@@ -88,13 +88,13 @@ export const projects = [
       },
       {
         id: 5,
-        name: "Postman",
-        path: "/assets/logos/postman.png",
+        name: "Django",
+        path: "/assets/logos/django.svg",
       },
       {
         id: 6,
-        name: "Figma",
-        path: "/assets/logos/figma.png",
+        name: "Postman",
+        path: "/assets/logos/postman.png",
       },
     ],
   },
@@ -226,7 +226,7 @@ export const projects = [
       {
         id: 3,
         name: "C++",
-        path: "/assets/logos/cplusplus.png",
+        path: "/assets/logos/c++.png",
       },
     ],
   },
