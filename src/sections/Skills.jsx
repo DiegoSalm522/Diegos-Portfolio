@@ -16,6 +16,8 @@ const Skills = () => {
               <SkillCard key={`${skill.name}-${skill.id}`} {...skill} />
             ))}
           </Marquee>
+          <div className="absolute inset-y-0 left-0 w-1/8 pointer-events-none bg-gradient-to-r from-primary"></div>
+          <div className="absolute inset-y-0 right-0 w-1/8 pointer-events-none bg-gradient-to-l from-primary"></div>
         </div>
         <br></br>
         {/*Frontend*/}
@@ -26,6 +28,8 @@ const Skills = () => {
               <SkillCard key={`${skill.name}-${skill.id}`} {...skill} />
             ))}
           </Marquee>
+          <div className="absolute inset-y-0 left-0 w-1/8 pointer-events-none bg-gradient-to-r from-primary"></div>
+          <div className="absolute inset-y-0 right-0 w-1/8 pointer-events-none bg-gradient-to-l from-primary"></div>
         </div>
         <br></br>
         {/*Backend*/}
@@ -36,6 +40,8 @@ const Skills = () => {
               <SkillCard key={`${skill.name}-${skill.id}`} {...skill} />
             ))}
           </Marquee>
+          <div className="absolute inset-y-0 left-0 w-1/8 pointer-events-none bg-gradient-to-r from-primary"></div>
+          <div className="absolute inset-y-0 right-0 w-1/8 pointer-events-none bg-gradient-to-l from-primary"></div>
         </div>
         <br></br>
         {/*Others*/}
@@ -46,6 +52,8 @@ const Skills = () => {
               <SkillCard key={`${skill.name}-${skill.id}`} {...skill} />
             ))}
           </Marquee>
+          <div className="absolute inset-y-0 left-0 w-1/8 pointer-events-none bg-gradient-to-r from-primary"></div>
+          <div className="absolute inset-y-0 right-0 w-1/8 pointer-events-none bg-gradient-to-l from-primary"></div>
         </div>
       </div>
     </section>
