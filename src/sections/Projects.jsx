@@ -17,7 +17,7 @@ const Projects = () => {
               alt={project.title}
               className="w-full md:w-1/2 h-[14rem] sm:h-[18rem] md:h-[14rem] lg:h-[18rem] object-cover rounded-2xl"
             />
-            <div className="flex-1 px-4 md:px-1 pb-4 md:pb-0 flex flex-col gap-3">
+            <div className="flex-1 px-4 md:px-1 pb-4 md:pb-0 flex flex-col gap-3 md:pt-4 mb-auto">
               <p className="headtext font-bold">{project.title}</p>
               <p className="subtext">{project.description}</p>
               <div className="flex flex-wrap gap-1">
