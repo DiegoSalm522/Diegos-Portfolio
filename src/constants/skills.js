@@ -107,36 +107,41 @@ export const backend = [
   },
   {
     id: 2,
+    name: "Express JS",
+    img: "/assets/logos/expressjs.jpg",
+  },
+  {
+    id: 3,
     name: "Django",
     img: "/assets/logos/django.svg",
   },
   {
-    id: 3,
+    id: 4,
     name: "Firebase",
     img: "/assets/logos/firebase.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "PHP",
     img: "/assets/logos/php.svg",
   },
   {
-    id: 5,
+    id: 6,
     name: "MySQL",
     img: "/assets/logos/mysql.png",
   },
   {
-    id: 6,
+    id: 7,
     name: "PostgreSQL",
     img: "/assets/logos/postgresql.png",
   },
   {
-    id: 7,
+    id: 8,
     name: "SQL",
     img: "/assets/logos/sql.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "Postman",
     img: "/assets/logos/postman.png",
   },
