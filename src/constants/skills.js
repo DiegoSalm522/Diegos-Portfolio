@@ -117,33 +117,38 @@ export const backend = [
   },
   {
     id: 4,
+    name: "Postman",
+    img: "/assets/logos/postman.png",
+  },
+  {
+    id: 5,
     name: "Firebase",
     img: "/assets/logos/firebase.png",
   },
   {
-    id: 5,
+    id: 6,
     name: "PHP",
     img: "/assets/logos/php.svg",
   },
   {
-    id: 6,
+    id: 7,
     name: "MySQL",
     img: "/assets/logos/mysql.png",
   },
   {
-    id: 7,
+    id: 8,
     name: "PostgreSQL",
     img: "/assets/logos/postgresql.png",
   },
   {
-    id: 8,
+    id: 9,
     name: "SQL",
     img: "/assets/logos/sql.png",
   },
   {
-    id: 9,
-    name: "Postman",
-    img: "/assets/logos/postman.png",
+    id: 10,
+    name: "MongoDB",
+    img: "/assets/logos/mongodb.svg",
   },
 ];
 
