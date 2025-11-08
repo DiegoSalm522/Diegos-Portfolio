@@ -1,10 +1,49 @@
+import { useState, useEffect } from 'react';
 import { FaGithub } from "react-icons/fa";
+import { IoMdPhotos } from "react-icons/io";
+import { MdOutlineComputer, MdClose, MdChevronLeft, MdChevronRight } from "react-icons/md";
 import { projects } from '../constants/projects';
-import { MdOutlineComputer } from "react-icons/md";
 
 const Projects = () => {
+  const [selectedGallery, setSelectedGallery] = useState(null);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    if (selectedGallery) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'unset';
+    }
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedGallery]);
+
+  const openGallery = (gallery, index = 0) => {
+    setSelectedGallery(gallery);
+    setCurrentImageIndex(index);
+  };
+
+  const closeGallery = () => {
+    setSelectedGallery(null);
+    setCurrentImageIndex(0);
+  };
+
+  const nextImage = () => {
+    setCurrentImageIndex((prev) => 
+      prev === selectedGallery.length - 1 ? 0 : prev + 1
+    );
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex((prev) => 
+      prev === 0 ? selectedGallery.length - 1 : prev - 1
+    );
+  };
+
   return (
     <section id='projects' className="c-space section-spacing">
+      {/* Projects */}
       <h2 className="text-heading">Projects</h2>
       <div className="gap-4 mt-12 flex flex-col space-y-4">
         {projects.map((project) => (
@@ -12,11 +51,21 @@ const Projects = () => {
             key={project.id}
             className="flex flex-col md:flex-row md:items-center gap-4 rounded-2xl bg-[#0B0B0D]"
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              className="w-full md:w-1/2 h-[14rem] sm:h-[18rem] md:h-[14rem] lg:h-[18rem] object-cover rounded-2xl"
-            />
+            <div className="relative w-full md:w-1/2">
+              <img
+                src={project.image}
+                alt={project.title}
+                className="w-full h-[14rem] sm:h-[18rem] md:h-[14rem] lg:h-[18rem] object-cover rounded-2xl"
+              />
+              {project.gallery && project.gallery.length > 0 && (
+                <button
+                  onClick={() => openGallery(project.gallery)}
+                  className="absolute top-3 right-3 bg-black/70 hover:bg-black/90 text-white p-2 rounded-full transition-all duration-200 hover:scale-110 backdrop-blur-sm cursor-pointer"
+                >
+                  <IoMdPhotos size={28} />
+                </button>
+              )}
+            </div>
             <div className="flex-1 px-4 md:px-1 pb-4 md:pb-0 flex flex-col gap-3 md:pt-4 mb-auto">
               <p className="headtext font-bold">{project.title}</p>
               <p className="subtext">{project.description}</p>
@@ -56,6 +105,62 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      {/* Gallery */}
+      {selectedGallery && (
+        <div 
+          className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4"
+          onClick={closeGallery}
+        >
+          <button
+            onClick={closeGallery}
+            className="absolute top-4 right-4 text-white hover:text-cyan-400 transition-colors cursor-pointer"
+          >
+            <MdClose size={32} />
+          </button>
+          <div 
+            className="relative max-w-5xl w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <img
+              src={selectedGallery[currentImageIndex]}
+              alt={`Imagen ${currentImageIndex + 1}`}
+              className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
+            />
+            {selectedGallery.length > 1 && (
+              <>
+                <button
+                  onClick={prevImage}
+                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black/90 text-white p-3 rounded-full transition-all duration-200 hover:scale-110 cursor-pointer"
+                >
+                  <MdChevronLeft size={28} />
+                </button>
+                <button
+                  onClick={nextImage}
+                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/70 hover:bg-black/90 text-white p-3 rounded-full transition-all duration-200 hover:scale-110 cursor-pointer"
+                >
+                  <MdChevronRight size={28} />
+                </button>
+                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+                  {selectedGallery.map((_, index) => (
+                    <button
+                      key={index}
+                      onClick={() => setCurrentImageIndex(index)}
+                      className={`w-2 h-2 rounded-full transition-all duration-200 ${
+                        index === currentImageIndex 
+                          ? 'bg-cyan-400 w-8' 
+                          : 'bg-white/50 hover:bg-white/80'
+                      }`}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
+            <div className="absolute top-4 left-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm backdrop-blur-sm">
+              {currentImageIndex + 1} / {selectedGallery.length}
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

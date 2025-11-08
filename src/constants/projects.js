@@ -5,7 +5,14 @@ export const projects = [
     description: "Personal portfolio website showcasing software development projects and skills.",
     demo: "https://diegosalmones-portfolio.vercel.app/",
     repository: "https://github.com/DiegoSalm522/DiegosPortfolio",
-    image: "/assets/projects/onlineportfolio.jpg",
+    image: "/assets/projects/diegos-portfolio/img0.jpg",
+    gallery: [
+      "/assets/projects/diegos-portfolio/img0.jpg",
+      "/assets/projects/diegos-portfolio/img1.jpg",
+      "/assets/projects/diegos-portfolio/img2.jpg",
+      "/assets/projects/diegos-portfolio/img3.jpg",
+      "/assets/projects/diegos-portfolio/img4.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -35,7 +42,17 @@ export const projects = [
     description: "E-commerce web application for a cellphone store featuring 8 brands, 180+ products, and 800+ variants.",
     demo: "https://phone-planet.vercel.app/",
     repository: "https://github.com/DiegoSalm522/PhonePlanet",
-    image: "/assets/projects/phoneplanet.jpg",
+    image: "/assets/projects/phone-planet/img0.jpg",
+    gallery: [
+      "/assets/projects/phone-planet/img0.jpg",
+      "/assets/projects/phone-planet/img1.jpg",
+      "/assets/projects/phone-planet/img2.jpg",
+      "/assets/projects/phone-planet/img3.jpg",
+      "/assets/projects/phone-planet/img4.jpg",
+      "/assets/projects/phone-planet/img5.jpg",
+      "/assets/projects/phone-planet/img6.jpg",
+      "/assets/projects/phone-planet/img7.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -65,7 +82,15 @@ export const projects = [
     description: "Web application inspired by the Star Wars universe to explore and learn about different planets through a blog-style interface.",
     demo: "https://star-wars-blog-ten.vercel.app/",
     repository: "https://github.com/DiegoSalm522/StarWarsBlog",
-    image: "/assets/projects/sw-blog.jpg",
+    image: "/assets/projects/sw-blog/img0.jpg",
+    gallery: [
+      "/assets/projects/sw-blog/img0.jpg",
+      "/assets/projects/sw-blog/img1.jpg",
+      "/assets/projects/sw-blog/img2.jpg",
+      "/assets/projects/sw-blog/img3.jpg",
+      "/assets/projects/sw-blog/img4.jpg",
+      "/assets/projects/sw-blog/img5.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -109,7 +134,15 @@ export const projects = [
     title: "Bazaar Profit Management Dashboard",
     description: "System for managing the profits of a children's hospital bazaar, combining a mobile app for sellers and a web platform for administrators.",
     repository: "https://github.com/ErwinPo/BazarAdmin",
-    image: "/assets/projects/bazar.jpg",
+    image: "/assets/projects/bazaar/img0.jpg",
+    gallery: [
+      "/assets/projects/bazaar/img0.jpg",
+      "/assets/projects/bazaar/img1.jpg",
+      "/assets/projects/bazaar/img2.jpg",
+      "/assets/projects/bazaar/img3.jpg",
+      "/assets/projects/bazaar/img4.jpg",
+      "/assets/projects/bazaar/img5.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -148,7 +181,18 @@ export const projects = [
     title: "Expoingenierias Web Platform",
     description: "Web platform developed for managing the engineering projects exhibition at my university, including project registration, evaluation, and administration.",
     repository: "https://github.com/RogerHdzC/TC2005B",
-    image: "/assets/projects/expoingenierias.jpg",
+    image: "/assets/projects/expo-ingenierias/img0.jpg",
+    gallery: [
+      "/assets/projects/expo-ingenierias/img0.jpg",
+      "/assets/projects/expo-ingenierias/img1.jpg",
+      "/assets/projects/expo-ingenierias/img2.jpg",
+      "/assets/projects/expo-ingenierias/img3.jpg",
+      "/assets/projects/expo-ingenierias/img4.jpg",
+      "/assets/projects/expo-ingenierias/img5.jpg",
+      "/assets/projects/expo-ingenierias/img6.jpg",
+      "/assets/projects/expo-ingenierias/img7.jpg",
+      "/assets/projects/expo-ingenierias/img8.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -187,7 +231,15 @@ export const projects = [
     title: "Reecicla App",
     description: "Mobile app for iOS and Android developed for a recycling company; users are able to request home recycling pickups or locate drop-off points on a map.",
     repository: "https://github.com/DiegoSalm522/Reecicla-App",
-    image: "/assets/projects/reeciclaapp.jpg",
+    image: "/assets/projects/reecicla-app/reeciclaapp.jpg",
+    gallery: [
+      "/assets/projects/reecicla-app/img0.jpg",
+      "/assets/projects/reecicla-app/img1.jpg",
+      "/assets/projects/reecicla-app/img2.jpg",
+      "/assets/projects/reecicla-app/img3.jpg",
+      "/assets/projects/reecicla-app/img4.jpg",
+      "/assets/projects/reecicla-app/img5.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -227,7 +279,15 @@ export const projects = [
     description: "3D emotional adventure video game combining platforming and puzzle mechanics, exploring the stages of grief through the story of Darwin.",
     demo: "https://diegosalm522.itch.io/grief-the-journey-of-loss",
     repository: "",
-    image: "/assets/projects/grief.jpg",
+    image: "/assets/projects/grief/img0.jpg",
+    gallery: [
+      "/assets/projects/grief/img0.jpg",
+      "/assets/projects/grief/img1.jpg",
+      "/assets/projects/grief/img2.jpg",
+      "/assets/projects/grief/img3.jpg",
+      "/assets/projects/grief/img4.jpg",
+      "/assets/projects/grief/img5.jpg"
+    ],
     tags: [
       {
         id: 1,
@@ -256,7 +316,10 @@ export const projects = [
     title: "2D Pacman",
     description: "2D recreation of the classic Pacman video game, built with OpenGL and C++.",
     repository: "https://github.com/DiegoSalm522/Pacman",
-    image: "/assets/projects/pacman.jpg",
+    image: "/assets/projects/pacman/img0.jpg",
+    gallery: [
+      "/assets/projects/pacman/img0.jpg"
+    ],
     tags: [
       {
         id: 1,
