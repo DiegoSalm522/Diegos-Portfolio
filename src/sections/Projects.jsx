@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { FaGithub } from "react-icons/fa";
-import { IoMdPhotos } from "react-icons/io";
-import { MdOutlineComputer, MdClose, MdChevronLeft, MdChevronRight } from "react-icons/md";
+import { MdOutlineComputer, MdPhoto, MdClose, MdChevronLeft, MdChevronRight} from "react-icons/md";
 import { projects } from '../constants/projects';
 
 const Projects = () => {
@@ -62,7 +61,7 @@ const Projects = () => {
                   onClick={() => openGallery(project.gallery)}
                   className="absolute top-3 right-3 bg-black/70 hover:bg-black/90 text-white p-2 rounded-full transition-all duration-200 hover:scale-110 backdrop-blur-sm cursor-pointer"
                 >
-                  <IoMdPhotos size={28} />
+                  <MdPhoto size={28} />
                 </button>
               )}
             </div>

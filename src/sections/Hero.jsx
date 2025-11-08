@@ -8,7 +8,7 @@ const Hero = () => {
         {/* HomeText */}
         <div className="text-center md:mt-30 md:text-left rounded-3xl bg-clip-text flex-1">
           <div>
-            <h1 className="text-4xl sm:text-6xl font-medium">Diego Salmones</h1>
+            <h1 className="text-4xl sm:text-6xl font-bold">Diego Salmones</h1>
             <h1 className="text-2xl sm:text-4xl font-medium">Software Developer</h1>
             <br/>
             <div className="text-3xl sm:text-5xl text-neutral-300">
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Background */}
-      <section className="absolute inset-0 bg-black/40">
+      <section className="absolute inset-0 bg-black/50">
         <div className="relative h-screen overflow-y-hidden">
           <div className="absolute inset-0 w-full h-screen -z-10"
             style={{
