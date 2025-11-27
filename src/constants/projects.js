@@ -137,7 +137,14 @@ export const projects = [
     repository: "https://github.com/DiegoSalm522/Popflix",
     image: "/assets/projects/popflix/img0.jpg",
     gallery: [
-      "/assets/projects/popflix/img0.jpg"
+      "/assets/projects/popflix/img0.jpg",
+      "/assets/projects/popflix/img1.jpg",
+      "/assets/projects/popflix/img2.jpg",
+      "/assets/projects/popflix/img3.jpg",
+      "/assets/projects/popflix/img4.jpg",
+      "/assets/projects/popflix/img5.jpg",
+      "/assets/projects/popflix/img6.jpg",
+      "/assets/projects/popflix/img7.jpg"
     ],
     tags: [
       {
