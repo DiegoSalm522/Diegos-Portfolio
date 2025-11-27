@@ -76,7 +76,7 @@ export const projects = [
       },
     ],
   },
-    {
+  {
     id: 3,
     title: "Star Wars Planets Blog",
     description: "Web application inspired by the Star Wars universe to explore and learn about different planets through a blog-style interface.",
@@ -131,6 +131,39 @@ export const projects = [
   },
   {
     id: 4,
+    title: "Popflix",
+    description: "Streaming-style web application powered by the TMDB API, showcasing movies and TV shows.",
+    demo: "https://popflix-three.vercel.app/",
+    repository: "https://github.com/DiegoSalm522/Popflix",
+    image: "/assets/projects/popflix/img0.jpg",
+    gallery: [
+      "/assets/projects/popflix/img0.jpg"
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "React",
+        path: "/assets/logos/react.png",
+      },
+      {
+        id: 2,
+        name: "JavaScript",
+        path: "/assets/logos/javascript.png",
+      },
+      {
+        id: 3,
+        name: "HTML5",
+        path: "/assets/logos/html.png",
+      },
+      {
+        id: 4,
+        name: "Tailwind CSS",
+        path: "/assets/logos/tailwind.png",
+      },
+    ],
+  },
+  {
+    id: 5,
     title: "Bazaar Profit Management Dashboard",
     description: "System for managing the profits of a children's hospital bazaar, combining a mobile app for sellers and a web platform for administrators.",
     repository: "https://github.com/ErwinPo/BazarAdmin",
@@ -177,7 +210,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Expoingenierias Web Platform",
     description: "Web platform developed for managing the engineering projects exhibition at my university, including project registration, evaluation, and administration.",
     repository: "https://github.com/RogerHdzC/TC2005B",
@@ -227,7 +260,7 @@ export const projects = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     title: "Reecicla App",
     description: "Mobile app for iOS and Android developed for a recycling company; users are able to request home recycling pickups or locate drop-off points on a map.",
     repository: "https://github.com/DiegoSalm522/Reecicla-App",
@@ -274,7 +307,7 @@ export const projects = [
     ],
   },
   {
-    id: 7,
+    id: 8,
     title: "Grief: The Journey of Loss - Video Game",
     description: "3D emotional adventure video game combining platforming and puzzle mechanics, exploring the stages of grief through the story of Darwin.",
     demo: "https://diegosalm522.itch.io/grief-the-journey-of-loss",
@@ -312,7 +345,7 @@ export const projects = [
     ],
   },
   {
-    id: 8,
+    id: 9,
     title: "2D Pacman",
     description: "2D recreation of the classic Pacman video game, built with OpenGL and C++.",
     repository: "https://github.com/DiegoSalm522/Pacman",
