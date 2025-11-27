@@ -44,7 +44,7 @@ const Projects = () => {
     <section id='projects' className="c-space section-spacing">
       {/* Projects */}
       <h2 className="text-heading">Projects</h2>
-      <div className="gap-8 mt-12 grid grid-cols-1 md:grid-cols-2">
+      <div className="gap-x-8 gap-y-12 mt-12 grid grid-cols-1 md:grid-cols-2">
         {projects.map((project) => (
           <div
             key={project.id}
