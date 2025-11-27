@@ -202,5 +202,11 @@ export const others = [
     id: 10,
     name: "Blender",
     img: "/assets/logos/blender.png",
-  }
+  },
+  {
+    id: 11,
+    name: "ANTLR",
+    img: "/assets/logos/antlr.png",
+  },
+
 ];

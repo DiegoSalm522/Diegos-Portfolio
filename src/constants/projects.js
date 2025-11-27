@@ -371,4 +371,26 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 10,
+    title: "Little Duck Compiler",
+    description: "Compiler development for the mini-imperative language Little Duck, implementing lexical, syntactic, and semantic analysis phases.",
+    repository: "https://github.com/DiegoSalm522/Proyecto-Patito",
+    image: "/assets/projects/compiler/img0.jpg",
+    gallery: [
+      "/assets/projects/compiler/img0.jpg"
+    ],
+    tags: [
+      {
+        id: 1,
+        name: "ANTLR",
+        path: "/assets/logos/antlr.png",
+      },
+      {
+        id: 2,
+        name: "Java",
+        path: "/assets/logos/java.png",
+      },
+    ],
+  },
 ];
