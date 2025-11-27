@@ -44,17 +44,17 @@ const Projects = () => {
     <section id='projects' className="c-space section-spacing">
       {/* Projects */}
       <h2 className="text-heading">Projects</h2>
-      <div className="gap-4 mt-12 flex flex-col space-y-4">
+      <div className="gap-8 mt-12 grid grid-cols-1 md:grid-cols-2">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="flex flex-col md:flex-row md:items-center gap-4 rounded-2xl bg-[#0B0B0D]"
+            className="flex flex-col md:items-center gap-4 rounded-2xl bg-[#0B0B0D]"
           >
-            <div className="relative w-full md:w-1/2">
+            <div className="relative w-full">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-[14rem] sm:h-[18rem] md:h-[14rem] lg:h-[18rem] object-cover rounded-2xl"
+                className="w-full h-auto object-cover rounded-2xl"
               />
               {project.gallery && project.gallery.length > 0 && (
                 <button
@@ -65,7 +65,7 @@ const Projects = () => {
                 </button>
               )}
             </div>
-            <div className="flex-1 px-4 md:px-1 pb-4 md:pb-0 flex flex-col gap-3 md:pt-4 mb-auto">
+            <div className="flex-1 px-4 pb-4 flex flex-col gap-3 mb-auto">
               <p className="headtext font-bold">{project.title}</p>
               <p className="subtext">{project.description}</p>
               <div className="flex flex-wrap gap-1">
